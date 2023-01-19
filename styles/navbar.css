@@ -53,9 +53,9 @@ body{
  }
  .search-box{
      position: relative;
-     max-width: 500px;
-     width:50%;
-     height: 35px;
+     max-width: 650px;
+     width:70%;
+     height: 40px;
      display:flex;
  }
  .search-bar{
