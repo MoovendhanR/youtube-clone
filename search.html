@@ -23,10 +23,10 @@
             <span></span>
             <span></span>
         </div>
-        <img src="./images/youtube.png" class="logo">
+        <img src="./images/youtube.png"onclick="callof()" class="logo">
       <div class="search-box">
            <input  type="text" class="search-bar" id="search-input" placeholder="Search...">
-           <button class="search-btn" onclick="searchVideo()"><img src="./images/search.png" ></button>
+           <button class="search-btn" ><img src="./images/search.png" ></button>
            <img src="./images/mike.png" class="icon"/>
 
       </div>
@@ -39,7 +39,7 @@
     </nav>
     <div id="container">
         <div class="side-bar">
-            <a href="#" class="links active"><img src="./images/home.png" alt=""/>home</a>  
+            <a href="./index.html" class="links active"><img src="./images/home.png" alt=""/>home</a>  
             <a href="#" class="links"><img src="./images/explore.png" alt=""/>explore</a>
             <a href="#" class="links"><img src="./images/subscriptions.png" alt=""/>subcription</a>
             <hr class="separator">
@@ -71,5 +71,13 @@
     </div>
 </body>
 <script type="module" src="./scripts/search-Operations.js"></script>
-<script type="module" src="./scripts/search.js"></script>
+<script type="module" src="./scripts/search.js">
+   
+</script>
+<script>
+     function callof(){
+        window.location.href = "./index.html";
+
+    }
+</script>
 </html>
