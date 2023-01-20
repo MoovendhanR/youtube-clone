@@ -1,5 +1,5 @@
 
-#<h1>youtube-clone</h1>
+<h1>youtube-clone</h1>
 
 Check the LIVE hosted website [here](https://youtube-clone-livid-iota.vercel.app/) or check screenshots below.
 
