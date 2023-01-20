@@ -33,7 +33,7 @@ var videoId = localStorage.getItem("video-id");
 
     let loadVideos = async () => {
         try {
-            let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${videoId}&type=video&key=AIzaSyCZMnqTfi7zEgsaaZcKFhirl3OrJBHpFQ4`);
+            let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${videoId}&type=video&maxResults=10&key=AIzaSyCZMnqTfi7zEgsaaZcKFhirl3OrJBHpFQ4`);
             let data = await res.json();
             console.log(data.items);
             appendVideos(data.items);

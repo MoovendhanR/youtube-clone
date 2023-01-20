@@ -1,4 +1,4 @@
-console.log("yes")
+// console.log("yes")
 const API="AIzaSyCZMnqTfi7zEgsaaZcKFhirl3OrJBHpFQ4";
 
 let loadMostPopular = async () => {
@@ -6,7 +6,7 @@ try {
     let res = await fetch(`https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${API}`);
     let data = await res.json();
     appendVideos(data.items);
-    console.log(data.items);
+    // console.log(data.items);
 } catch(err) {
     console.log(err);
 }
