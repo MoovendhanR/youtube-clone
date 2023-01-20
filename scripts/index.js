@@ -1,4 +1,7 @@
 // console.log("yes")
+function searchVideo(){
+    console.log("clicked")
+}
 const API="AIzaSyCZMnqTfi7zEgsaaZcKFhirl3OrJBHpFQ4";
 
 let loadMostPopular = async () => {
